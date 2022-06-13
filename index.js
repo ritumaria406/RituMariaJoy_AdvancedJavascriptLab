@@ -26,7 +26,7 @@ fetch(`${baseUrl}?q=${city}&appid=${appId}&units=metric`)
 }
 
 
-getWeather('Bangalore');
+
 function   showWeather(data)
 {
     const city = document.querySelector('.city') ;
